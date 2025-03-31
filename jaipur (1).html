@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaipur Hospitals - EmergencyConnect</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #FFC371, #FF5F6D);
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #FFC371;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            color: #FF5F6D;
+        }
+        main {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 3rem;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+        .hospital-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .hospital-card {
+            background: #fff;
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .hospital-card:hover {
+            transform: translateY(-10px) scale(1.05);
+        }
+        .hospital-card h3 {
+            font-size: 1.8rem;
+            color: #FF5F6D;
+            margin: 20px 0;
+        }
+        .hospital-card p {
+            font-size: 1rem;
+            color: #555;
+            margin: 10px 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 20px;
+            background: #FF5F6D;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #e64a19;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jaipur Hospitals</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hospitals.html">Back to Hospitals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Hospitals in Jaipur</h2>
+        <div class="hospital-container">
+            <div class="hospital-card">
+                <h3>SMS Hospital</h3>
+                <p>Phone: +91-141-2560291</p>
+                <p>Address: JLN Marg, Jaipur, Rajasthan</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <div class="hospital-card">
+                <h3>Fortis Hospital</h3>
+                <p>Phone: +91-141-6626666</p>
+                <p>Address: Jawahar Circle, Jaipur</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <div class="hospital-card">
+                <h3>Manipal Hospital</h3>
+                <p>Phone: +91-141-6662100</p>
+                <p>Address: Sikar Road, Jaipur</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EmergencyConnect. All rights reserved.</p>
+    </footer>
+</body>
+</html>

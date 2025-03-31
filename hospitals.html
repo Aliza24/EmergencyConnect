@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitals - Integrated Healthcare Network</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #74EBD5, #ACB6E5);
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #74EBD5;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff5722;
+        }
+        main {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 40px;
+        }
+        .city-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 20px 50px;
+            font-size: 1.5rem;
+            color: #fff;
+            background: #ff5722;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background: #e64a19;
+            transform: translateY(-10px) scale(1.05);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hospitals</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Select a City</h2>
+        <div class="city-buttons">
+            <a href="jaipur.html" class="btn">Jaipur Hospitals</a>
+            <a href="delhi.html" class="btn">Delhi Hospitals</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Integrated Healthcare Network. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

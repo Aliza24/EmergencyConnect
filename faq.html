@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - EmergencyConnect</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff5722;
+        }
+        main {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .faq-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .faq h2 {
+            color: #764ba2;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-item h3 {
+            font-size: 1.5rem;
+            color: #667eea;
+            cursor: pointer;
+        }
+        .faq-item p {
+            display: none;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Frequently Asked Questions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hospitals.html">Hospitals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ(this)">What services do you offer?</h3>
+                <p>We provide real-time data on blood availability, organ donations, and hospital facilities.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ(this)">How can I register my hospital?</h3>
+                <p>You can register by filling out the form on the Contact Us page or reaching out via email.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ(this)">Is my data secure?</h3>
+                <p>Yes, we ensure that all data is encrypted and protected with the highest security standards.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ(this)">How do I find blood or organ donors quickly?</h3>
+                <p>You can use our search feature to locate donors or availability in real time.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ(this)">Are there any membership fees?</h3>
+                <p>No, our platform is completely free for both hospitals and patients.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ(this)">Can I track my blood donation history?</h3>
+                <p>Yes, registered users can view their donation history and eligibility for the next donation.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleFAQ(this)">How frequently is the data updated?</h3>
+                <p>Data is updated every few minutes to provide the most accurate and reliable information.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EmergencyConnect. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleFAQ(element) {
+            const answer = element.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
