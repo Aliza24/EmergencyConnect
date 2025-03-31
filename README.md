@@ -1,4 +1,4 @@
-# 🏥 **EmergencyConnect: An Integrated Healthcare Network**
+🏥 **EmergencyConnect: An Integrated Healthcare Network**
 
 ## 🚀 **Project Overview**
 HealthConnect is a comprehensive healthcare platform designed to integrate hospitals, nursing centers, and medical services into a **unified network**. It provides real-time information on **blood availability, organ donation, emergency services**, and hospital listings. The project aims to streamline healthcare accessibility and empower individuals with life-saving resources.
