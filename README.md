@@ -41,28 +41,19 @@ HealthConnect is a comprehensive healthcare platform designed to integrate hospi
 
 🗂️ **Folder Structure:**
 ```
-/your-project-folder
- ├── index.html              (Homepage)
- ├── about.html              (About Us)
- ├── services.html           (Services Page)
- ├── hospitals.html          (Hospitals Page)
- ├── contact.html            (Contact Page)
- ├── faq.html                (FAQ Page)
- ├── news.html               (News Page)
- ├── gallery.html            (Gallery Page)
- ├── style.css               (CSS Stylesheet)
- ├── README.md               (Project Documentation)
- ├── images/                 (Folder for Images)
- │      ├── hospital1.jpg
- │      ├── doctors.jpg
- │      ├── organ-donation.jpg
- │      ├── blood-donation.jpg
- │      ├── emergency.jpg
- │      └── patient-care.jpg
- └── scripts/                (Optional JS Files)
+/ EmergencyConnect
+│── index.html         # Main landing page
+│── style.css          # Styling for the website
+│── login.html         # Login page
+│── register.html      # Registration page
+│── hospitals.html     # List of hospitals in different cities
+│── faq.html           # Frequently Asked Questions
+│── about.html         # About Us section
+│── contact.html       # Contact details
+│── images/            # Image assets
+│── scripts/           # JavaScript files (to be implemented)
 ```
 
----
 
 ## ⚙️ **Setup Instructions**
 1. **Clone the repository:**
