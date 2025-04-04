@@ -95,10 +95,10 @@ code .
 ---
 
 ## 🎯 **Vision Statement:**
-> **“To create a unified healthcare ecosystem that ensures seamless access to life-saving resources, fosters collaboration among hospitals, and empowers individuals with real-time information to make informed medical decisions.”**
+> **“To create a unified healthcare ecosystem that ensures seamless access to life-saving resources especially in cases of emergency, fosters collaboration among hospitals, and empowers individuals with real-time information to make informed medical decisions.”**
 
 ### 🔥 **Tagline:**
-✅ **“Connecting Healthcare, Saving Lives.”**
+✅ **“Saving Lives by Serving Emergencies.”**
 
 ---
 
@@ -111,9 +111,7 @@ code .
 ## 🚀 **Future Enhancements:**
 - **Backend Integration:**
     - Using **Node.js and MongoDB** for database management.
-    - Real-time data retrieval for hospital records.
-- **User Authentication:**
-    - Login and registration system.
+    - Real-time data retrieval for hospital records using **Machine Learning and LLMs** .
 - **Dynamic Content:**
     - Real-time updates from hospitals and blood banks.
 
