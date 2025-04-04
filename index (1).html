@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmergencyConnect</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #74EBD5, #ACB6E5);
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            color: #fff;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #74EBD5;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff5722;
+        }
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('images/healthcare-bg.jpg') no-repeat center center/cover;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .hero h2 {
+            font-size: 3rem;
+            animation: fadeIn 1.5s ease-in;
+        }
+        .btn {
+            padding: 12px 25px;
+            background: #ff5722;
+            color: #fff;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #e64a19;
+            transform: translateY(-3px);
+        }
+        .services {
+            padding: 50px 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        .service-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            background: linear-gradient(135deg, #ff5722, #ff9800);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 30%;
+            transition: 0.3s;
+        }
+        .service:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+        .footer {
+            background: rgba(0, 0, 0, 0.9);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EmergencyConnect</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="hospitals.html">Hospitals</a></li>
+                    <li><a href="login.html" class="btn">Login</a></li>
+                    <li><a href="register.html" class="btn">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Saving Lives by Serving Emergencies</h2>
+                <p>Connecting hospitals and nursing centers to provide easy access to blood, organs, and medical resources.</p>
+                <a href="#services" class="btn">Explore Services</a>
+            </div>
+        </section>
+        
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-container">
+                <div class="service">
+                    <i class="fas fa-tint fa-3x"></i>
+                    <h3>Blood Availability</h3>
+                    <p>Real-time blood availability across centers.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-heartbeat fa-3x"></i>
+                    <h3>Organ Donation</h3>
+                    <p>Find or donate organs easily.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-ambulance fa-3x"></i>
+                    <h3>Emergency Assistance</h3>
+                    <p>Quick access to emergency services.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Integrated Healthcare Network. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
