@@ -1,45 +1,45 @@
 🏥 **EmergencyConnect: An Integrated Healthcare Network**
 
-## 🚀 **Project Overview**
+🚀 **Project Overview**
 HealthConnect is a comprehensive healthcare platform designed to integrate hospitals, nursing centers, and medical services into a **unified network**. It provides real-time information on **blood availability, organ donation, emergency services**, and hospital listings. The project aims to streamline healthcare accessibility and empower individuals with life-saving resources.
 
 ---
 
-## 🌟 **Features**
-### ✅ **1. User-Friendly Website:**
+ 🌟 **Features**
+ ✅ **1. User-Friendly Website:**
 - Attractive and professional interface.
 - Easy navigation through multiple sections: Home, Services, Hospitals, Contact, News, FAQ, and Gallery.
 - Mobile-responsive design.
 
-### ✅ **2. Real-Time Information:**
+✅ **2. Real-Time Information:**
 - Displays real-time data on **blood and organ availability**.
 - Emergency services and contact details for quick access.
 
-### ✅ **3. Hospital Listings:**
+✅ **3. Hospital Listings:**
 - Detailed information about **Jaipur and Delhi hospitals**.
 - Contact details for easy reach during emergencies.
 
-### ✅ **4. Image Gallery:**
+✅ **4. Image Gallery:**
 - Visual representation of healthcare services.
 - Showcases hospital infrastructure, blood donation camps, and emergency care services.
 
-### ✅ **5. Multi-Page Navigation:**
+✅ **5. Multi-Page Navigation:**
 - Seamless navigation between multiple pages using **HTML and CSS**.
 - Linked navigation menu across all pages.
 
-### ✅ **6. Professional Styling:**
+✅ **6. Professional Styling:**
 - CSS3 with **gradient backgrounds, shadows, and hover effects**.
 - Elegant layout with consistent styling across the website.
 
 ---
 
-## 🛠️ **Technology Stack**
-### 💻 **Frontend:**
+🛠️ **Technology Stack**
+💻 **Frontend:**
 - **HTML5** → Structure of the website.
 - **CSS3** → Styling and layout design.
 - **JavaScript** → For interaction (to be added later).
 
-### 🗂️ **Folder Structure:**
+🗂️ **Folder Structure:**
 ```
 /your-project-folder
  ├── index.html              (Homepage)
